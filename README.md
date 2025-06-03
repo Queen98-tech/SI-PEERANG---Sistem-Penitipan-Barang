@@ -14,15 +14,13 @@ Panduan untuk menjalankan program :
 
 ###  b. Library yang Digunakan
 
-* *tkinter* → Untuk GUI.
+* *tkinter* : Untuk GUI.
+* *webbrowser* : Untuk membuka link WhatsApp (juga bawaan Python).
+* *urllib.parse* : Untuk encode URL (juga bawaan Python).
+* *random* : Untuk membuat ID unik.
+* *messagebox* : Termasuk dalam tkinter.
 
-  * Sudah tersedia secara *default* di sebagian besar instalasi Python.
-* *webbrowser* → Untuk membuka link WhatsApp (juga bawaan Python).
-* *urllib.parse* → Untuk encode URL (juga bawaan Python).
-* *random* → Untuk membuat ID unik.
-* *messagebox* → Termasuk dalam tkinter.
-
- *Tidak perlu install library tambahan*.
+ *Semuanya sudah tersedia di python jadi tidak perlu install library tambahan.
 
 ---
 
@@ -36,7 +34,7 @@ Simpan kode Python tersebut sebagai file, misalnya:
 penitipan_barang.py
 
 
-### ▶ b. Jalankan file
+###  b. Jalankan file
 
 Buka terminal atau command prompt, arahkan ke folder file tersebut, lalu jalankan:
 
@@ -50,7 +48,7 @@ Jika kamu menggunakan *VSCode, cukup klik kanan file dan pilih **Run Python File
 
 ##  *3. Fungsi Program*
 
-###  Panel Admin
+###  Mode admin
 
 * Memasukkan data:
 
@@ -73,7 +71,7 @@ Jika kamu menggunakan *VSCode, cukup klik kanan file dan pilih **Run Python File
 ###  Panel Siswa
 
 * Siswa dapat memasukkan *ID Barang*
-* Klik tombol *"Ambil Barang (Konfirmasi)"*
+* Klik tombol Ambil barang (Konfirmasi)
 
   * Jika ID valid dan statusnya "dititipkan", maka akan dikonfirmasi untuk diambil
   * Lemari menjadi kosong lagi dan tersedia untuk barang lain
@@ -82,7 +80,5 @@ Jika kamu menggunakan *VSCode, cukup klik kanan file dan pilih **Run Python File
 
 ##  *4. Catatan Tambahan*
 
-* Aplikasi ini *belum menyimpan data ke file atau database*, jadi data akan hilang jika aplikasi ditutup.
-* Fungsi notifikasi WA *tidak benar-benar mengirim pesan* tapi membuka browser ke https://wa.me/... sesuai nomor siswa.
-* Kamu bisa uji coba fitur WA menggunakan nomormu sendiri.
+* Aplikasi ini "Belum Menyimpan di Database" ,jadi data akan hilang jika aplikasi ditutup.
 * ID Barang seperti BRG-1234 dihasilkan secara acak untuk tiap penitipan.
