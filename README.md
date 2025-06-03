@@ -36,13 +36,13 @@ penitipan_barang.py
 
 ###  b. Jalankan file
 
-Buka terminal atau command prompt, arahkan ke folder file tersebut, lalu jalankan:
+Buka terminal atau command prompt : arahkan ke folder file tersebut lalu jalankan:
 
 bash
 python penitipan_barang.py
 
 
-Jika kamu menggunakan *VSCode, cukup klik kanan file dan pilih **Run Python File in Terminal*.
+Jika kamu menggunakan VSCode : cukup klik kanan file dan pilih (Run) Python File in Terminal*.
 
 ---
 
@@ -55,7 +55,7 @@ Jika kamu menggunakan *VSCode, cukup klik kanan file dan pilih **Run Python File
   * Nama siswa
   * Nomor WhatsApp siswa (contoh: 628123456789)
   * Deskripsi barang
-* Menekan tombol *"Titipkan Barang"* akan:
+* Menekan tombol (Titipkan barang) akan:
 
   * Menyimpan data
   * Menempatkan barang di salah satu lemari (maksimal 12)
@@ -66,7 +66,7 @@ Jika kamu menggunakan *VSCode, cukup klik kanan file dan pilih **Run Python File
 * Menampilkan semua lemari dan statusnya:
 
   * Kosong (hijau muda)
-  * Terisi (merah muda), dengan informasi nama siswa, deskripsi, dan ID barang
+  * Terisi (merah muda) dengan informasi nama siswa, deskripsi , dan ID barang
 
 ###  Panel Siswa
 
@@ -82,3 +82,4 @@ Jika kamu menggunakan *VSCode, cukup klik kanan file dan pilih **Run Python File
 
 * Aplikasi ini "Belum Menyimpan di Database" ,jadi data akan hilang jika aplikasi ditutup.
 * ID Barang seperti BRG-1234 dihasilkan secara acak untuk tiap penitipan.
+* Notifikasi tidak benar-benar memberikan notifikasi ke siswa melainkan membuka whatsapp sesuai nomor siswa.
